@@ -1,0 +1,12 @@
+# Ignore all build output
+out/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# Mac OS files
+.DS_Store
+
+# Log files
+*.log
