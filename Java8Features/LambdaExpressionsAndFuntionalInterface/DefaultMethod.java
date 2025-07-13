@@ -11,16 +11,16 @@ interface Parent2{
         System.out.println("Parent2 class");
     }
 }
-//2 case for default method:
+//2 case for default method in interface:
 //1)In case of multiple inheritance, there is an ambiguity when we use default method in Parent1 and Parent2,
-//so inside child class by override that default method we call through ClassName.super.show(),
+//so inside child class by override that default method we call through InterfaceName.super.show(),
 //2) OR child should be override that default method which is present in Parent1 and Parent2
 
 
 class Child implements Parent1, Parent2{
     @Override
     public void show() {
-        //we can use default method by ClassName.super.show()
+        //we can use default method by InterfaceName.super.show()
         Parent1.super.show();
     }
 
