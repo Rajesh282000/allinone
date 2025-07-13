@@ -1,4 +1,4 @@
-package Java8Features.LambdaExpressionsAndFuntionalInterface.Prac2LMAndFI;
+package Java8Features.LambdaExpressionsAndFuntionalInterface;
 
 public class RunnableThreadLMAndFI{
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Java8Features.LambdaExpressionsAndFuntionalInterface.Prac2LMAndFI;
+package Java8Features.LambdaExpressionsAndFuntionalInterface;
 
 import java.util.ArrayList;
 import java.util.Collections;
