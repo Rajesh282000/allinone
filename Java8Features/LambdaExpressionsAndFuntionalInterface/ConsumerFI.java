@@ -2,7 +2,7 @@ package Java8Features.LambdaExpressionsAndFuntionalInterface;
 
 import java.util.function.Consumer;
 
-public class PracLMAndFI1 {
+public class ConsumerFI {
     public static void main(String[] args) {
 
         //Consumer<String> stringConsumer = (String s) -> System.out.println(s);
