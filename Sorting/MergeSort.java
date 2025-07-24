@@ -1,4 +1,4 @@
-package Recursion;
+package Sorting;
 
 import java.util.Arrays;
 
@@ -45,7 +45,7 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {4, 5, 1, 2, 3};
+        int[] arr = {4, 5, 1, 2, 3, 1, -2};
         arr=mergeSort(arr);
         System.out.println(Arrays.toString(arr));
     }

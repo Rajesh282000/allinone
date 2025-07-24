@@ -4,25 +4,42 @@ import java.util.Arrays;
 
 public class SelectionSort {
 
+//    public  static void sort(int[] nums){
+//        for(int i =0 ; i<nums.length;i++) {
+//           int last = nums.length-i-1;
+//           int maxIndex = findLargest(nums,0,last);
+//           swap(nums,last,maxIndex);
+//
+//        }
+//    }
+//
+//    private static int findLargest(int[] nums, int start, int last) {
+//
+//        int max =start;
+//        for (int j = start; j <= last; j++) {
+//         if (nums[max] < nums[j]){
+//             max =j;
+//         }
+//        }
+//        return max;
+//    }
+
+
     public  static void sort(int[] nums){
-        for(int i =0 ; i<nums.length;i++) {
-           int last = nums.length-i-1;
-           int maxIndex = findLargest(nums,0,last);
-           swap(nums,last,maxIndex);
+        int n = nums.length;
 
+        for (int i = 0; i < n-1; i++) {
+            int minIndex = i;
+            for (int j = i+1; j < n; j++) {
+                if (nums[j] < nums[minIndex]){
+                    minIndex = j;
+                }
+            }
+            swap(nums, i, minIndex);
         }
+
     }
 
-    private static int findLargest(int[] nums, int start, int last) {
-
-        int max =start;
-        for (int j = start; j <= last; j++) {
-         if (nums[max] < nums[j]){
-             max =j;
-         }
-        }
-        return max;
-    }
 
     private static void swap(int[] nums, int i, int j) {
         int temp= nums[i];
