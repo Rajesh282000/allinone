@@ -1,4 +1,4 @@
-package com.BString;
+package BString;
 
 import java.util.Arrays;
 
