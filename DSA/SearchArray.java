@@ -1,4 +1,4 @@
-package com.DSA;
+package DSA;
 
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.util.Scanner;
