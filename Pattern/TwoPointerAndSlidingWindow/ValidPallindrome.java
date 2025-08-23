@@ -1,4 +1,4 @@
-package Pattern.TwoPointer;
+package Pattern.TwoPointerAndSlidingWindow;
 
 public class ValidPallindrome {
     public static void main(String[] args) {

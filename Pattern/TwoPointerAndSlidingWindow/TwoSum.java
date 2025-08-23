@@ -1,4 +1,4 @@
-package Pattern.TwoPointer;
+package Pattern.TwoPointerAndSlidingWindow;
 
 public class TwoSum {
     public static int[] twoSum(int[] nums, int target) {

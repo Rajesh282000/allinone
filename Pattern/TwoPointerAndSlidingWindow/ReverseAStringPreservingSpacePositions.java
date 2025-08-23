@@ -1,4 +1,4 @@
-package Pattern.TwoPointer;
+package Pattern.TwoPointerAndSlidingWindow;
 
 public class ReverseAStringPreservingSpacePositions {
     public static String reverseWords(String s) {

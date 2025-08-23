@@ -1,4 +1,4 @@
-package Pattern.TwoPointer;
+package Pattern.TwoPointerAndSlidingWindow;
 
 public class RemoveAllOccurrencesOfAnElement {
     public static int removeElement(int[] nums, int val) {
