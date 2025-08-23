@@ -46,26 +46,65 @@ public class AVLTree {
             node.right = insert(node.right, value);
         }
         node.height = 1 + Math.max(height(node.left), height(node.right));
-      //  return rotate(node);
-        return node;
+        return rotate(node);
     }
-//    private Node rotate(Node node) {
-//        if (height(node.left) - height(node.right) > 1) {
-//            //left heavy
-//            if (height(node.left.left) - height(node.left.right) > 0) {
-//                //left left case
-//                return rotateRight(node);
-//            }
-//
-//            if(height(node.left.left) - height(node.left.right) < 0){
-//                //left right case
-//                node.left = rotateLeft(node.left);
-//                return rotateRight(node);
-//            }
-//        }
-//
-//            return node;
-//    }
+    private Node rotate(Node node) {
+        if (height(node.left) - height(node.right) > 1) {
+            //left heavy
+            if (height(node.left.left) - height(node.left.right) > 0) {
+                //left left case
+                return rotateRight(node);
+            }
+
+            if(height(node.left.left) - height(node.left.right) < 0){
+                //left right case
+                node.left = rotateLeft(node.left);
+                return rotateRight(node);
+            }
+        }
+
+        if (height(node.left) - height(node.right) > 1) {
+            //right heavy
+            if (height(node.right.left) - height(node.right.right) < 0) {
+                //right right case
+                return rotateLeft(node);
+            }
+
+            if(height(node.right.left) - height(node.right.right) > 0){
+                //left right case
+                node.right = rotateRight(node.right);
+                return rotateLeft(node);
+            }
+        }
+
+            return node;
+    }
+
+    private Node rotateRight(Node p) {
+        Node c = p.left;
+        Node t = c.right;
+
+        c.right = p;
+        p.left = t;
+
+        p.height = 1 + Math.max(height(p.left), height(p.right));
+        c.height = 1 + Math.max(height(c.left), height(c.right));
+        return c;
+    }
+
+
+    private Node rotateLeft(Node c) {
+        Node p = c.right;
+        Node t = p.left;
+
+
+        p.left = c;
+        c.right = t;
+
+        p.height = 1 + Math.max(height(p.left), height(p.right));
+        c.height = 1 + Math.max(height(c.left), height(c.right));
+        return p;
+    }
 
 
 
@@ -154,9 +193,14 @@ public class AVLTree {
     }
 
     public static void main(String[] args) {
-        AVLTree bst = new AVLTree();
+        AVLTree avl = new AVLTree();
         int[] arr = {5, 3, 7, 2, 4, 6, 8, 1, 9};
-        bst.populate(arr);
-        bst.display();
+        for (int i = 0; i < 1000; i++) {
+            avl.insert(i);
+        }
+//        avl.populate(arr);
+//        avl.display();
+      //  System.out.println(avl.height());
     }
+
 }
