@@ -30,7 +30,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
 
 
-    public static int twoPointerPlusHashMapApproach(String s) {
+    public static int slidingWindowHashMapApproach(String s) {
         if (s == null || s.length() == 0) return 0;
 
         Map<Character, Integer> map = new HashMap<>();
@@ -56,7 +56,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
 
       //  brutForceApproach("cadbzabcd");
-      int max=  twoPointerPlusHashMapApproach("pwwkew");
+      int max=  slidingWindowHashMapApproach("pwwkew");
         System.out.println(max);
 
     }
