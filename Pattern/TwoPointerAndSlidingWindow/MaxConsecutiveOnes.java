@@ -1,5 +1,6 @@
 package Pattern.TwoPointerAndSlidingWindow;
 
+//LongestSubstringWithAtMostKDistinctCharacters
 
 //Longest subarray with at most K zeros(Sliding window)
 public class MaxConsecutiveOnes {
