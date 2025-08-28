@@ -3,6 +3,8 @@ package Pattern.TwoPointerAndSlidingWindow;
 import java.util.HashMap;
 import java.util.Map;
 
+
+//sliding window and hashmap
 public class LongestSubstringWithAtMostKDistinctCharacters {
     public static void brutForceApproach(String s, int k){
         HashMap<Character, Integer> map;
