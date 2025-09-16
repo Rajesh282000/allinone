@@ -19,7 +19,7 @@ public class InsertionSort {
         nums[j] = temp;
     }
     public static void main(String[] args) {
-        int[] nums={0,7, 5, -8, 1, 9, 4};
+        int[] nums={7, 2, 0, -8, 1, 9, 4};
         sort(nums);
         System.out.println(Arrays.toString(nums));
     }

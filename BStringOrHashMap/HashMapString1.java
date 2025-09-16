@@ -1,4 +1,4 @@
-package com.BStringOrHashMap;
+package BStringOrHashMap;
 
 
 import java.util.LinkedHashMap;

@@ -29,13 +29,14 @@ public class MergeSortSecondMethod {
         while(j <= end){
             temp[k++] = arr[j++];
         }
-        for (int l = 0; l < temp.length; l++) {
-            arr[start+l] = temp[l];
+        int t = 0;
+        for (int l = start; l <= end; l++) {
+            arr[l] = temp[t++];
         }
 
     }
     public static void main(String[] args) {
-        int[] arr = {4, 5, 1, 2, 3, 1, -2};
+        int[] arr = {4, 5, 1, 1, -2};
         mergeSort(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
     }
