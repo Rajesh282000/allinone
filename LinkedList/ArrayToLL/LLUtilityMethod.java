@@ -1,14 +1,5 @@
 package LinkedList.ArrayToLL;
 
-class Node{
-    int val;
-    Node next;
-    Node(int val){
-        this.val=val;
-    }
-
-}
-
 public class LLUtilityMethod {
     public static Node insertArrayElementToLL(int[] arr){
         Node head = new Node(arr[0]);

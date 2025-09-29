@@ -3,7 +3,6 @@ package LinkedList.ArrayToDLL;
 import java.util.Stack;
 
 public class ArrToDLL {
-
     public static void main(String[] args) {
 
         int[] arr = {1, 2, 3, 4, 5};
@@ -18,11 +17,11 @@ public class ArrToDLL {
 
 //        Node insertHead = DLLUtilityMethod.insertHead(head, 8);
 //        Node insertLastNode = DLLUtilityMethod.insertLastNode(head, 9);
-        Node insertKthPosition = DLLUtilityMethod.insertKthNode(head, 89, 2);
-        DLLUtilityMethod.displayDLL(insertKthPosition);
-
-        //reverse DLL using stack
-        Node reverseHead= ReverseDLL.reverseDll(insertKthPosition);
-        DLLUtilityMethod.displayDLL(reverseHead);
+//        Node insertKthPosition = DLLUtilityMethod.insertKthNode(head, 89, 2);
+//        DLLUtilityMethod.displayDLL(insertKthPosition);
+//
+//        //reverse DLL using stack
+//        Node reverseHead= ReverseDLL.reverseDll(insertKthPosition);
+//        DLLUtilityMethod.displayDLL(reverseHead);
     }
 }
