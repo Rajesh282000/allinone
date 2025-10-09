@@ -5,7 +5,7 @@ import LinkedList.ArrayToLL.LLProblems.*;
 
 import java.util.List;
 
-public class ArrayToLL {
+public class ArrToLL {
 
 
     public static void main(String[] args) {
@@ -55,11 +55,19 @@ public class ArrayToLL {
 
 
         //5.
-        int[] problem5Arr = {1, 2, 3, 4, 9, 8};
-        Node problem5Head = LLUtilityMethod.insertArrayElementToLL(problem5Arr);
-        LLUtilityMethod.displayLL(problem5Head);
-        Node res5Head = ReverseLL.reverseLL(problem5Head);
-        LLUtilityMethod.displayLL(res5Head);
+//        int[] problem5Arr = {1, 2, 3, 4, 9, 8};
+//        Node problem5Head = LLUtilityMethod.insertArrayElementToLL(problem5Arr);
+//        LLUtilityMethod.displayLL(problem5Head);
+//        Node res5Head = ReverseLL.reverseLL(problem5Head);
+//        LLUtilityMethod.displayLL(res5Head);
+
+
+        //6.
+        int[] problem6Arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        Node problem6Head = LLUtilityMethod.insertArrayElementToLL(problem6Arr);
+        LLUtilityMethod.displayLL(problem6Head);
+        Node res6Head = ReverseNodesInKGroupSize.kReverse(problem6Head, 3);
+        LLUtilityMethod.displayLL(res6Head);
 
     }
 

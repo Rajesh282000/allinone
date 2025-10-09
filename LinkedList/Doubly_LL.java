@@ -1,4 +1,4 @@
-package com.LinkedList;
+package LinkedList;
 
 public class Doubly_LL {
     private Node head;

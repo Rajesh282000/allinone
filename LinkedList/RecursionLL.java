@@ -1,4 +1,4 @@
-package com.LinkedList;
+package LinkedList;
 //Linked list using recursion
 public class RecursionLL {
     private Node head;
