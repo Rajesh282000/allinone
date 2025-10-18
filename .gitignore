@@ -8,5 +8,7 @@ out/
 # Mac OS files
 .DS_Store
 
+/out/
+
 # Log files
 *.log
