@@ -1,0 +1,103 @@
+✅ Arrays (20)
+Reverse array - done
+Two Sum - done
+Max/min element - done
+Move zeros - done
+Rotate array - done
+Kadane’s algorithm - done
+Stock buy/sell 1 -done
+Stock buy/sell 2 - 30/5
+Majority element
+Missing number
+Merge sorted arrays
+Subarray sum
+Longest consecutive sequence
+Sort colors
+Product except self
+Find duplicate
+Trapping rain water
+Maximum product subarray
+Count pairs
+Equilibrium index
+Spiral matrix
+
+
+✅ Strings (15)
+Reverse string
+Palindrome
+Anagram
+Longest common prefix
+Longest substring without repeat
+Count vowels
+Remove duplicates
+First non-repeating char
+String rotation
+Valid parentheses
+Count words
+Remove special characters
+Check only digits
+Check only alphabets
+String compression
+
+
+✅ Linked List (15)
+Reverse linked list
+Middle node
+Detect loop
+Remove nth from end
+Merge two lists
+Intersection point
+Palindrome linked list
+Delete node
+Add two numbers
+Sort linked list
+Rotate list
+Remove duplicates
+Odd-even list
+Copy list with random pointer
+Reverse in k groups
+
+
+✅ Stack & Queue (10)
+Stack using array
+Valid parentheses
+Next greater element
+Stock span
+Min stack
+Queue using stack
+Sliding window maximum
+LRU cache
+Circular queue
+Expression evaluation
+
+
+✅ Trees (15)
+Inorder traversal
+Preorder traversal
+Postorder traversal
+Level order traversal
+Height of tree
+Diameter of tree
+Balanced tree
+LCA
+Symmetric tree
+Max depth
+Min depth
+Path sum
+Invert tree
+Right view
+Serialize/Deserialize
+
+
+✅ Recursion & Hashing (10)
+Fibonacci
+Factorial
+Subsets
+Permutations
+Power of number
+Frequency count
+First unique character
+Pair sum using map
+Subarray sum = K
+Longest substring with K distinct
+
