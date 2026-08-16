@@ -6,11 +6,11 @@ Move zeros - done
 Rotate array - done
 Kadane’s algorithm - done
 Stock buy/sell 1 -done
-Stock buy/sell 2 - 30/5
-Majority element
-Missing number
-Merge sorted arrays
-Subarray sum
+Stock buy/sell 2 - 30/5 - done
+Majority element 1 - 31/5 - done
+Missing number - 31/5 -done
+Merge sorted arrays - 1/6 - 2/6 done
+Subarray sum -
 Longest consecutive sequence
 Sort colors
 Product except self
@@ -22,12 +22,13 @@ Equilibrium index
 Spiral matrix
 
 
+
 ✅ Strings (15)
-Reverse string
-Palindrome
-Anagram
-Longest common prefix
-Longest substring without repeat
+Reverse string - done
+Palindrome -done
+Anagram - done
+Longest common prefix -
+Longest substring without repeat - 16/8
 Count vowels
 Remove duplicates
 First non-repeating char
